@@ -1,7 +1,7 @@
 {
     "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
     "name": "purestats",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Website analytics for site owners and developers. Analyze traffic, acquisition sources, campaigns, events and funnels, and diagnose tracker installations. Authorized site management uses explicit permissions.",
     "repository": "https://github.com/PureStats-io/purestats-plugins",
     "homepage": "https://purestats.io",
@@ -22,7 +22,7 @@
             "interface": {
                 "displayName": "PureStats",
                 "shortDescription": "Website analytics and setup",
-                "longDescription": "Website analytics for site owners and developers. Analyze traffic, acquisition sources, campaigns, events and funnels, and diagnose tracker installations. Authorized site management uses explicit permissions. Compare periods and human, bot or suspicious traffic, inspect realtime activity, and obtain installation instructions for your project. Account access requires browser OAuth consent and selected sites. The initial grant is read-only; changes need additional consent, and irreversible actions need a separate human approval on PureStats. This is a pre-launch package. Public MCP access remains disabled until connection and security acceptance tests are complete. It does not provide global administration or execute project code.",
+                "longDescription": "Website analytics for site owners and developers. Analyze traffic, acquisition sources, campaigns, events and funnels, and diagnose tracker installations. Authorized site management uses explicit permissions. Compare periods and human, bot or suspicious traffic, inspect realtime activity, and obtain installation instructions for your project. Account access requires browser OAuth consent and selected sites. The initial grant is read-only; changes need additional consent, and irreversible actions need a separate human approval on PureStats. This is a pre-launch review package for the authenticated MCP endpoint. Real ChatGPT acceptance and directory approval are still pending. It does not provide global administration or execute project code.",
                 "developerName": "PureStats",
                 "category": "Data & Analytics",
                 "capabilities": [
@@ -97,7 +97,7 @@
                 }
             },
             "publication": {
-                "release_notes": "Corrected the listing subtitle, support link and analytics category. Added prepared review cases and listing validation. Public MCP access is not yet active; this is not a production connection release."
+                "release_notes": "Prepared authenticated MCP discovery, explicit tool security metadata and isolated synthetic review fixtures. Real ChatGPT acceptance and the review recording remain pending; no directory approval is claimed."
             }
         }
     }

@@ -1,6 +1,6 @@
 {
     "name": "purestats",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Website analytics for site owners and developers. Analyze traffic, acquisition sources, campaigns, events and funnels, and diagnose tracker installations. Authorized site management uses explicit permissions.",
     "repository": "https://github.com/PureStats-io/purestats-plugins",
     "homepage": "https://purestats.io",

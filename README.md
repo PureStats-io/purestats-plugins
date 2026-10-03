@@ -7,10 +7,11 @@ PureStats backend and its private Git history are not included or licensed here.
 ## Release status
 
 The packages are currently **pre-launch integration sources**, not a working
-production connection or an approved directory listing. Public MCP access at
-`https://purestats.io/mcp` is still disabled while protocol, security and client
-acceptance tests are completed. ChatGPT also requires its exact publisher
-callback and a verified isolated UI origin before activation.
+approved directory listing or verified ChatGPT connection. The authenticated
+MCP endpoint is `https://purestats.io/mcp`; it requires browser OAuth consent.
+ChatGPT still requires its exact publisher callback and real-client acceptance
+before its connection can be considered complete. No unauthenticated analytics
+access is provided.
 
 Do not interpret successful package validation or installation as a successful
 OAuth connection. Release notes will explicitly announce when production access
@@ -18,13 +19,14 @@ and platform-specific acceptance tests have passed.
 
 ## Draft listing update
 
-Version 0.1.1 uses the Data & Analytics category, a subtitle within the 30-character
+Version 0.1.2 uses the Data & Analytics category, a subtitle within the 30-character
 submission limit and the HTTPS support page at https://purestats.io/contact.
 The ChatGPT manifest includes five positive and three negative review scenarios.
 These are **prepared expectations**, not evidence of successful ChatGPT tests.
 Run every case on a dedicated synthetic review account after MCP is enabled.
-Reviewer credentials and the walkthrough recording must be provided separately
-through the publisher portal before review; no such credentials are packaged.
+Reviewer credentials belong only in the secure publisher portal. The walkthrough
+URL is added to the package only after a real recording is privacy-reviewed,
+hosted and tested for playback; no such credentials are packaged.
 
 ## Packages
 
@@ -46,8 +48,8 @@ claude plugin validate .
 ```
 
 For isolated local installation tests, add this directory as a marketplace and
-install `purestats@purestats`. This loads the package, but does not enable the
-currently disabled production MCP endpoint or grant account access.
+install `purestats@purestats`. This loads the package, but does not grant account
+access or demonstrate a successful OAuth connection.
 
 ## Permissions and authentication
 

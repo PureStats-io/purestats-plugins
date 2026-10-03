@@ -1,0 +1,45 @@
+{
+    "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+    "name": "purestats",
+    "version": "0.1.0",
+    "description": "Privacy-friendly analytics, tracker setup and site management with explicit permissions.",
+    "repository": "https://github.com/PureStats-io/purestats-plugins",
+    "homepage": "https://purestats.io",
+    "author": {
+        "name": "PureStats",
+        "email": "support@purestats.io",
+        "url": "https://purestats.io"
+    },
+    "license": "MIT",
+    "keywords": [
+        "analytics",
+        "privacy",
+        "tracking",
+        "purestats"
+    ],
+    "extensions": {
+        "com.openai": {
+            "interface": {
+                "displayName": "PureStats",
+                "shortDescription": "Privacy-friendly web analytics and tracker setup.",
+                "longDescription": "Privacy-friendly analytics, tracker setup and site management with explicit permissions.",
+                "developerName": "PureStats",
+                "category": "Productivity",
+                "capabilities": [
+                    "Read",
+                    "Write"
+                ],
+                "websiteURL": "https://purestats.io",
+                "privacyPolicyURL": "https://purestats.io/privacy",
+                "termsOfServiceURL": "https://purestats.io/terms",
+                "defaultPrompt": [
+                    "Review my website traffic in PureStats.",
+                    "Check my PureStats tracker installation."
+                ],
+                "brandColor": "#087A64",
+                "composerIcon": "./assets/icon.png",
+                "logo": "./assets/logo.svg"
+            }
+        }
+    }
+}

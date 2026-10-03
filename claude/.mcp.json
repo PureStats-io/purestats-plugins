@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "purestats": {
+            "type": "http",
+            "url": "https://purestats.io/mcp",
+            "oauth": {
+                "clientId": "3e479817-9c7d-4e2b-b722-3263f8969001",
+                "callbackPort": 18437,
+                "scopes": "account:read sites:read analytics:read"
+            }
+        }
+    }
+}

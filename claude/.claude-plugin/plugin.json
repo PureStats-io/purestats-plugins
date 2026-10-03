@@ -1,0 +1,13 @@
+{
+    "name": "purestats",
+    "version": "0.1.0",
+    "description": "Privacy-friendly analytics, tracker setup and site management with explicit permissions.",
+    "repository": "https://github.com/PureStats-io/purestats-plugins",
+    "homepage": "https://purestats.io",
+    "author": {
+        "name": "PureStats",
+        "email": "support@purestats.io",
+        "url": "https://purestats.io"
+    },
+    "license": "MIT"
+}

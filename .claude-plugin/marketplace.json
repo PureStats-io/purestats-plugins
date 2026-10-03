@@ -1,0 +1,15 @@
+{
+    "name": "purestats",
+    "owner": {
+        "name": "PureStats",
+        "email": "support@purestats.io"
+    },
+    "plugins": [
+        {
+            "name": "purestats",
+            "source": "./claude",
+            "version": "0.1.0",
+            "description": "Privacy-friendly analytics with explicit site permissions."
+        }
+    ]
+}

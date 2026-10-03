@@ -16,6 +16,16 @@ Do not interpret successful package validation or installation as a successful
 OAuth connection. Release notes will explicitly announce when production access
 and platform-specific acceptance tests have passed.
 
+## Draft listing update
+
+Version 0.1.1 uses the Data & Analytics category, a subtitle within the 30-character
+submission limit and the HTTPS support page at https://purestats.io/contact.
+The ChatGPT manifest includes five positive and three negative review scenarios.
+These are **prepared expectations**, not evidence of successful ChatGPT tests.
+Run every case on a dedicated synthetic review account after MCP is enabled.
+Reviewer credentials and the walkthrough recording must be provided separately
+through the publisher portal before review; no such credentials are packaged.
+
 ## Packages
 
 - `chatgpt/`: portable Agent Plugins manifest and Streamable HTTP configuration.

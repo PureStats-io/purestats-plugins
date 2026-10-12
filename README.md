@@ -9,9 +9,9 @@ PureStats backend and its private Git history are not included or licensed here.
 The packages are currently **pre-launch integration sources**, not a working
 approved directory listing or verified ChatGPT connection. The authenticated
 MCP endpoint is `https://purestats.io/mcp`; it requires browser OAuth consent.
-ChatGPT still requires its exact publisher callback and real-client acceptance
-before its connection can be considered complete. No unauthenticated analytics
-access is provided.
+ChatGPT uses its official client metadata document (CIMD), or an explicitly
+registered callback, and still requires real-client acceptance before its
+connection can be considered complete. No unauthenticated analytics access is provided.
 
 Do not interpret successful package validation or installation as a successful
 OAuth connection. Release notes will explicitly announce when production access
@@ -19,7 +19,15 @@ and platform-specific acceptance tests have passed.
 
 ## Draft listing update
 
-Version 0.1.2 uses the Data & Analytics category, a subtitle within the 30-character
+Version 0.1.3 explicitly declares OAuth under the MCP server's
+`extensions.com.openai.auth` in `mcp.json`, with CIMD client selection, MCP
+resource binding and the three initial read scopes. Upload this ZIP as a new
+version of the existing publisher draft, select it and reconnect. The portal
+panel displays the saved package settings; no secret or manual bearer header
+belongs there. A real connection must open PureStats browser consent before
+scanning tools. See the [OpenAI package reference](https://developers.openai.com/plugins/build/plugins).
+
+The package uses the Data & Analytics category, a subtitle within the 30-character
 submission limit and the HTTPS support page at https://purestats.io/contact.
 The ChatGPT manifest includes five positive and three negative review scenarios.
 These are **prepared expectations**, not evidence of successful ChatGPT tests.

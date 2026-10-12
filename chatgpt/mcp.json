@@ -3,7 +3,23 @@
     "mcpServers": {
         "purestats": {
             "type": "streamable-http",
-            "url": "https://purestats.io/mcp"
+            "url": "https://purestats.io/mcp",
+            "extensions": {
+                "com.openai": {
+                    "auth": {
+                        "type": "oauth",
+                        "client": {
+                            "mode": "cimd"
+                        },
+                        "resource": "https://purestats.io/mcp",
+                        "baseScopes": [
+                            "account:read",
+                            "sites:read",
+                            "analytics:read"
+                        ]
+                    }
+                }
+            }
         }
     }
 }
